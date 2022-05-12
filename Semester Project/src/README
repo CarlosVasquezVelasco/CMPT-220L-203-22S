@@ -1,0 +1,14 @@
+Set up of the project:
+The project has four files to it. There is the counter class, Node class, BST class and the Main class.
+Most of the functional code is written in the BST class. The node class was used to define the node that
+will be called on when making and traversing the BST.
+The counter class was made to initialize a counter object which was used in finding the Nth largest object.
+
+To use the project, the user should interact with the Main.java file. By typing bin_tree.insert(); and inserting
+a number in the parenthesis, the user is adding a node with a certain value to the binary search tree.
+The function: find_element(any integer); checks to see if the desired element is in the binary search tree, and
+if it is it returns a true statement. If the value is not in the binary search tree, then it returns a false statement.
+
+All the functions that are written recursively have a respective caller function that is what is used in the main class.
+The only user input needed is to enter any desired numbers into the find_element function or if they wanted to insert
+more nodes to the tree. Running the main class will output all potential information.
